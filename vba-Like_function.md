@@ -1,11 +1,12 @@
 # VBA notes(Like Function)
 This is a small VBA programme I wrote when I had internship in Morgan Stanley. 
 The purpose is to check every Fund Conpany and their new-issued funds, which need classifying into different category based on their types.
-I simplify the classification by checking their names. 
+I simplify classcification by checking their names. 
 If a name contains 'A' then put it into type 'A', which is realized by Like-Function.
 BTW, it needs data from WIND software.
+More detailed explanation would come later.
+···
 
-'''
 Sub 申报统计()
 
 '使用方法：请配合wind行政审批进度使用
@@ -111,4 +112,4 @@ Cells(1, 8).Value = "总数"
 
 End Sub
 
-'''
+···
