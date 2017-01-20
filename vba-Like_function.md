@@ -7,11 +7,11 @@
 > BTW, it needs data from WIND software.
 > More detailed explanation would come later.
 
-##Some simple notes
+## Some simple notes
 + `Like "*" & m(p) & "*"` is better than `Like m(p)`, `"&m(p)&"` can take the value of m(p) and `"*  *"` is fuzzy matching.
 + in VBA, we should consider sheet.select and ActiveSheet, it will impact your loop.
 
-
+## Programme
 ```
 Sub 申报统计()
 
