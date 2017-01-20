@@ -6,8 +6,8 @@
 > If a name contains 'A' then put it into type 'A', which is realized by Like-Function.
 > BTW, it needs data from WIND software.
 > More detailed explanation would come later.
-···
 
+```
 Sub 申报统计()
 
 '使用方法：请配合wind行政审批进度使用
@@ -112,5 +112,4 @@ Cells(1, 6).Value = "QD"
 Cells(1, 8).Value = "总数"
 
 End Sub
-
-···
+```
